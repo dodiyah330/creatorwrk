@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #010314;
+  color: white;
+}
+
+body {
+  font-family: "Okta Neue", sans-serif;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+header {
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 767px) {
+  #root {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #root {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #root {
+    padding: 5rem;
+  }
+}
